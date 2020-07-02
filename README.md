@@ -1,3 +1,10 @@
+# Thermostat - REACT
+
+First attempt at using React. This code is not tested.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
