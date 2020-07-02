@@ -45,50 +45,6 @@ export class Thermostat extends Component {
     this.setState({currentTemp: this.state.defaultTemp})
   }
 
-    // getWeather = () => {
-    //   fetch("./weather.json")
-    //   .then(response => response.json())
-    //   .then(
-    //     (result) => {
-    //       this.state({
-    //         isLoaded: true,
-    //         weather: result.weather
-    //       })
-    //     },
-    //     (error) => {
-    //       this.setState({
-    //         isLoaded: true,
-    //         error
-    //       })
-    //     }
-    //   )
-    // }
-
-  //   getWeather = () => {
-  //     fetch("/weather.json")
-  //       .then(res => res.json())
-  //       .then(
-  //         (result) => {
-  //           console.log('result', result)
-  //           console.log('result.weather', result.weather)
-  //           this.setState({
-  //             isLoaded: true,
-  //             weather: result.weather
-  //           });
-  //         },
-  //         // Note: it's important to handle errors here
-  //         // instead of a catch() block so that we don't swallow
-  //         // exceptions from actual bugs in components.
-  //         (error) => {
-  //           this.setState({
-  //             isLoaded: true,
-  //             error
-  //           });
-  //         }
-  //       )
-  //   }
-  // }
-  
   render() {
     return (
       <div>
